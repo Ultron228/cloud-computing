@@ -37,6 +37,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  border-bottom: 1px solid rgb(163, 163, 163); /* Add this line */
 }
 
 .nav-links {
@@ -205,13 +206,13 @@ section {
 .title1 {
   cursor: default;
   font-size: 4rem;
-  display: flex;
   color: rgb(201, 17, 17);
 }
 
 #socials-container {
   display: flex;
   justify-content: center;
+  align-items: center; /* Tambahkan ini */
   margin-top: 1rem;
   gap: 1rem;
 }
@@ -221,6 +222,12 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+
+.icon1 {
+  cursor: pointer;
+  height: 3rem;
+  gap: 10rem;
 }
 
 /* BUTTONS */
@@ -374,8 +381,6 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
@@ -404,10 +409,10 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
-  text-align: center;
-}
+    margin: 1rem 1rem; 
+  }
+  
+  footer p {
+    text-align: center;
+    margin-top: 1rem; 
+  }
